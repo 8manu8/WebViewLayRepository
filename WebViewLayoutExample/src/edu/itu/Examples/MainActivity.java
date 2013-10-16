@@ -19,6 +19,12 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.main);
 
 		button = (Button) findViewById(R.id.buttonUrl);
+		
+		int name;
+		
+		//button1 = (Button) findViewById(R.id.buttonUrl);
+		
+		//This message is for commit
 
 		button.setOnClickListener(new OnClickListener() {
 
